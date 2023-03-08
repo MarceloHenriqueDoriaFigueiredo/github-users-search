@@ -22,7 +22,7 @@ export function Home() {
     return(
         <div>
             <Search loaderUser={loaderUser} />
-            {user && <p>{user.following}</p>}
+            {user && <p>{user.login}</p>}
         </div>
     )
 }
