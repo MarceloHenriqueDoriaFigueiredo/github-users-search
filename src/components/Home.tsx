@@ -5,6 +5,7 @@ import { useState } from "react"
 export function Home() {
     const [user, setUser] = useState<UserProps | null>(null)
     const loaderUser = async(userName: string) => {
+        
         const res = await fetch(`https://api.github.com/users/${userName}`)
         const data= await res.json()
         const { avatarUrl, login, location, followrs, following } = data
@@ -15,7 +16,6 @@ export function Home() {
             followrs,
             following
         }
-
         setUser(userData)
     }
 

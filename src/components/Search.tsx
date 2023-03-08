@@ -3,9 +3,7 @@ type SearchProps = {
 }
 
 import { useState } from 'react'
-
 import { BsSearch } from 'react-icons/bs'
-
 export function Search({loaderUser}: SearchProps) {
     
     const [userName, setUserName] = useState('')
