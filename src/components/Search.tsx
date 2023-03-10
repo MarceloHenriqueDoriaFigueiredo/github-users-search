@@ -2,10 +2,10 @@ type SearchProps = {
     loaderUser: (userName: string) => Promise<void>
 }
 
-import styles from './Search.module.css'
+import styles from './Search.module.css' 
 import { useState, KeyboardEvent } from 'react'
 import { BsSearch } from 'react-icons/bs'
-export function Search({loaderUser}: SearchProps) {
+export function Search({ loaderUser }: SearchProps) {
     
     const [userName, setUserName] = useState('')
 
