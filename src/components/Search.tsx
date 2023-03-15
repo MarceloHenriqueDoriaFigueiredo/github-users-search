@@ -16,8 +16,7 @@ export function Search({ loaderUser }: SearchProps) {
     }
     return(
         <div className={styles.search}>
-            <h2>Busque por usuario:</h2>
-            <p>Conheça os melhores repositorios</p>
+            <h2>Busque por um usuario:</h2>
 
             <div className={styles.search_container}>
                 <input type="text" 
