@@ -3,6 +3,7 @@ import { Search } from "./Search"
 import { User } from "./User"
 import { Error } from "./Error"
 import { useState } from "react"
+import { GlobalStyle } from "../styles/global"
 
 export function Home() {
     const [user, setUser] = useState<UserProps | null>(null)
@@ -35,6 +36,8 @@ export function Home() {
             <Search loaderUser={loaderUser} />
             {user && <User {...user} />}
             {error && <Error />}
+
+            <GlobalStyle />
         </div>
     )
 }
