@@ -1,10 +1,11 @@
 type SearchProps = {
     loaderUser: (userName: string) => Promise<void>
 }
-
-import styles from './Search.module.css' 
+ 
 import { useState, KeyboardEvent } from 'react'
 import { BsSearch } from 'react-icons/bs'
+import { Searchs } from './Search.style'
+import { SearchContainer } from './Search.style'
 export function Search({ loaderUser }: SearchProps) {
     
     const [userName, setUserName] = useState('')
@@ -15,10 +16,10 @@ export function Search({ loaderUser }: SearchProps) {
         }
     }
     return(
-        <div className={styles.search}>
+        <Searchs>
             <h2>Busque por um usuario:</h2>
 
-            <div className={styles.search_container}>
+            <SearchContainer>
                 <input type="text" 
                 placeholder="Digite o nome do usuario" 
                 onChange={(e) => setUserName(e.target.value)} 
@@ -28,7 +29,7 @@ export function Search({ loaderUser }: SearchProps) {
                 <button onClick={() => loaderUser(userName)}>
                     <BsSearch />
                 </button>
-            </div>
-        </div>
+            </SearchContainer>
+        </Searchs>
     )
 }
