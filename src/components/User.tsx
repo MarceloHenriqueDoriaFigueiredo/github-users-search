@@ -1,28 +1,29 @@
 import { UserProps } from "../types/user"
 import {MdLocationPin} from 'react-icons/md'
 import styles from './User.module.css'
+import { StatusContainer, StatusNumber, UserContainer } from "./User.style"
 
 export function User({login, avatar_url, location, followers,following }: UserProps) {
     return(
-        <div className={styles.user}>
+        <UserContainer>
             <img src={avatar_url} alt={login} />
             <h2>{login}</h2>
-            <p className={styles.location}>
+            <p>
                 <MdLocationPin />
                 <span>{location}</span>
             </p>
 
-            <div className={styles.status}>
+            <StatusContainer>
                 <div>
                     <p>Seguidores:</p>
-                    <p className={styles.numbers}>{followers}</p>
+                    <StatusNumber>{followers}</StatusNumber>
                 </div>
 
                 <div>
                     <p>Seguindo:</p>
-                    <p className={styles.numbers}>{following}</p>
+                    <StatusNumber>{following}</StatusNumber>
                 </div>
-            </div>
-        </div>
+            </StatusContainer>
+        </UserContainer>
     )
 }
