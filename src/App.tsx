@@ -1,11 +1,11 @@
-import styles from './App.module.css'
+import { AppContainer } from './App.style'
 import { Home } from './components/Home'
 
 export function App() {
   return (
-    <div className={styles.app}>
+    <AppContainer>
         <h1>Pesquisa de usuários do github</h1>
         <Home />
-    </div>
+    </AppContainer>
   )
 }
