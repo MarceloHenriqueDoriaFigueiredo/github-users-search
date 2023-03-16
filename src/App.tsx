@@ -1,4 +1,4 @@
-import { AppContainer } from './App.style'
+import { AppContainer } from './styles/App.style'
 import { Home } from './components/Home'
 
 export function App() {
