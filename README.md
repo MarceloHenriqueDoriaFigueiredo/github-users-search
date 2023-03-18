@@ -18,7 +18,10 @@
  
 <h1>Mobile:</h1>
   <img alt="pagina de pesquisa do github" src=".github/mobile.png" width="30%">
+  <img alt="pagina de pesquisa do github -  Usuario não encontrado" src=".github/error.png" width="30%">
 </p>
+
+
 
 ## 🚀 Tecnologias
 
