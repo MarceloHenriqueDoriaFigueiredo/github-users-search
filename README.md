@@ -26,7 +26,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - ReactJS
 - HTML
-- JavaScript
 - TypeScript
 - StyledComponents
 - ViteJS
