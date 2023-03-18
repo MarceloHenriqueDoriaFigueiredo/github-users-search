@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - ReactJS
 - HTML
 - TypeScript
-- StyledComponents
+- Styled-Components
 - ViteJS
 - API do Github
 
