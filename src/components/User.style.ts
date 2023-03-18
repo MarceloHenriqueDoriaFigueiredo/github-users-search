@@ -32,6 +32,10 @@ export const UserContainer = styled.div`
     color: #fff;
     font-weight: bold;
   }
+
+  h2 {
+    font-size: 1.2rem;
+  }
 `
 
 export const StatusContainer = styled.div`
