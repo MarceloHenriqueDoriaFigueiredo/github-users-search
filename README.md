@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto tem como objetivo construir um sistema de busca de usuarios do github onde atraves da pesquisa sera retornado dados do usuario como, nome, foto (caso tenha), localizacao, numero de seguindores e a quantidade de pessoas que o usuario esta seguindo. Para coletar as informacoes esta sendo utilizado o fecth do JavaScript para fazer a solicitacao de dados para API publica do proprio github.
+O projeto tem como objetivo construir um sistema de busca de usuarios do github onde atraves da pesquisa sera retornado dados do usuario como, nome, foto (caso tenha), localizacao, numero de seguindores e a quantidade de pessoas que o usuario esta seguindo. Caso usuario não seja encontrado sera retornado a mensagem dizendo que o mesmo n Para coletar as informacoes esta sendo utilizado o fecth do JavaScript para fazer a solicitacao de dados para API publica do proprio github.
 
 
 ## :memo: Licença
