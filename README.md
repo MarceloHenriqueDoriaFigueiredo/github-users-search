@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto tem como objetivo construir um sistema de busca de usuarios do github onde atraves da pesquisa sera retornado dados do usuario como, nome, foto (caso tenha), localizacao, numero de seguindores e a quantidade de pessoas que o usuario esta seguindo. Caso usuario não seja encontrado sera retornado a mensagem dizendo que o mesmo nao foi encontrado. Para coletar as informacoes esta sendo utilizado o fecth do JavaScript para fazer a solicitacao de dados para API publica do proprio github.
+O projeto tem como objetivo construir um sistema de busca de usuários do GitHub. Através da pesquisa, serão retornados dados do usuário, tais como nome, foto (caso haja), localização, número de seguidores e a quantidade de pessoas que o usuário segue. Caso o usuário não seja encontrado, será exibida uma mensagem informando que o mesmo não foi encontrado. Para coletar as informações, está sendo utilizado o método "fetch" do JavaScript para fazer a solicitação de dados para a API pública do próprio GitHub.  
 
 
 ## :memo: Licença
